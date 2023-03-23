@@ -1,0 +1,57 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 52px;
+}
+
+header h2 {
+  margin: 0 10px;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 96px;
+}
+
+.menu {
+  display: flex;
+
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 5px;
+
+  cursor: pointer;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
